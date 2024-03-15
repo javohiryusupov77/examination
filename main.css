@@ -182,13 +182,13 @@ section .blog h1 {
 }
 .cards {
   width: 100%;
-  padding-left: 1.8rem;
-  margin-block: 1rem;
-  -moz-column-gap: 4rem;
-       column-gap: 4rem;
-  row-gap: 5rem;
   display: flex;
   flex-wrap: wrap;
+  padding-left: 1.5rem;
+  margin-block: 1.5rem;
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+  row-gap: 5rem;
 }
 .cards h4 {
   font-family: "Poppins", sans-serif;
