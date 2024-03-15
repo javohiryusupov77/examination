@@ -7,7 +7,7 @@
 header {
   padding-inline: 3rem;
   padding-top: 1.5rem;
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -75,8 +75,9 @@ header .icons p {
 }
 
 section {
-  margin-inline: 2rem;
-  max-width: 1120px;
+  margin-right: 1.5rem;
+  margin-left: 1.8rem;
+  max-width: 1200px;
   height: 30rem;
   background-image: url("./images/Image Placeholder header.png");
   background-position: center;
@@ -120,6 +121,7 @@ section .blog h1 {
 }
 
 .Sort {
+  width: 96vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -180,10 +182,10 @@ section .blog h1 {
 }
 .cards {
   width: 100%;
-  padding-left: 1rem;
-  margin-block: 2rem;
-  -moz-column-gap: 2rem;
-       column-gap: 2rem;
+  padding-left: 1.8rem;
+  margin-block: 1rem;
+  -moz-column-gap: 4rem;
+       column-gap: 4rem;
   row-gap: 5rem;
   display: flex;
   flex-wrap: wrap;
@@ -193,7 +195,7 @@ section .blog h1 {
 }
 @media screen and (width < 1150px) {
   .cards {
-    padding-left: 6rem;
+    padding-left: 10rem;
   }
 }
 .cards img {
