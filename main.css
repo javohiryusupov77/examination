@@ -75,12 +75,19 @@ header .icons p {
 }
 
 section {
-  width: 100%;
+  margin-right: 1.5rem;
+  margin-left: 1.8rem;
+  max-width: 1220px;
   height: 30rem;
   background-image: url("./images/Image Placeholder header.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media screen and (width > 1400px) {
+  section {
+    width: 100%;
+  }
 }
 @media screen and (width < 700px) {
   section {
@@ -218,11 +225,6 @@ section .blog h1 {
   width: 100%;
   display: flex;
   justify-content: center;
-}
-@media screen and (width < 900px) {
-  .show_more {
-    padding-left: 7rem;
-  }
 }
 .show_more button {
   border-radius: 20px;
