@@ -210,7 +210,9 @@ section {
 }
 .show_more {
     width: 100%;
-    padding-left: 30rem;
+    display: flex;
+    justify-content: center;
+    // padding-left: 30rem;
     @media screen and (width < 900px) {
         padding-left: 7rem;
     }
